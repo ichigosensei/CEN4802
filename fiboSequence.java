@@ -6,8 +6,16 @@ package Assignment2;
 
 import java.util.*;
 
+/**
+ * @author s.trinidad
+ *
+ */
 public class fiboSequence {
 	
+    /**
+     * @param seqNum returns the input from the user and calculates the nth value of the Fibonacci sequence
+     * @return
+     */
     public static int fibonacci(int seqNum) {
     	
     	if (seqNum <= 1)
@@ -16,6 +24,9 @@ public class fiboSequence {
     		return fibonacci(seqNum-1) + fibonacci(seqNum-2);
 }
 
+    /**
+     * @param args is the main that starts up the program and gets the user input
+     */
     public static void main (String args[]) {
 
     	int seqNum;
